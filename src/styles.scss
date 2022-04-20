@@ -1,4 +1,6 @@
 @import "./Components/Header/header.styles.scss";
+@import "./Components/List/list.styles.scss";
+@import "./Components/Map/map.styles.scss";
 
 * {
   padding: 0;
@@ -8,4 +10,11 @@
 
 .app {
   height: 100vh;
+  font-family: sans-serif;
+}
+
+.layout {
+  display: flex;
+  height: calc(100% - (67px));
+  min-height: 600px;
 }
