@@ -12,7 +12,7 @@ function Header() {
         {/* <Autocomplete> */}
         <div className="search">
           <FontAwesomeIcon icon={faSearch} className="icon" />
-          <input type="text" placeholder="Search..." />
+          <input type="text" placeholder="Search..."></input>
         </div>
         {/* </Autocomplete> */}
       </div>
