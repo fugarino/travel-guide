@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+::placeholder {
+  color: rgba(255, 255, 255, 0.684);
+}
+
 .app {
   height: 100vh;
   font-family: sans-serif;
@@ -15,6 +19,6 @@
 
 .layout {
   display: flex;
-  height: calc(100% - (67px));
+  height: calc(100% - (57.5px));
   min-height: 600px;
 }
