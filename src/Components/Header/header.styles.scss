@@ -21,7 +21,7 @@
     .search {
       margin-left: 15px;
       background-color: #6575c7;
-      border-radius: 5px;
+      border-radius: 4px;
       position: relative;
       width: 12rem;
       overflow: hidden;
@@ -31,7 +31,7 @@
         user-select: none;
         position: absolute;
         left: 10px;
-        top: 9px;
+        top: 11px;
       }
 
       input {
@@ -43,6 +43,7 @@
         height: 100%;
         padding: 8px;
         padding-left: 30px;
+        padding-top: 11px;
 
         &:hover {
           background-color: #7082d9;
