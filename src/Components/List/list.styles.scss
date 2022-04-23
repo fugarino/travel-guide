@@ -29,5 +29,10 @@
   .list-cards {
     max-height: calc(100vh - 206.5px);
     overflow: auto;
+    padding-right: 10px;
+  }
+
+  .list-cards:first-child {
+    background-color: #7082d9;
   }
 }
